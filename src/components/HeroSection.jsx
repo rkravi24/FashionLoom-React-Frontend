@@ -10,10 +10,9 @@ const HeroSection = () => {
 
             {imageList.map((url, index) => (
                 <div key={index} className="h-full w-full  bg-cover bg-center bg-no-repeat  flex items-center justify-center" style={{
-                    backgroundImage: `url(${url})`}} />
+                    backgroundImage: `url(${url})` }} />
             ))}
 
-            {/* TEXT */}
             <div className="absolute flex-col ml-[150px]">
                 <h1 className=" text-5xl font-semibold">Style that Moves with You</h1>
                 <p className="mt-2 text-xl">Premium Quality. Timeless Design. Effortless Comfort.</p>
