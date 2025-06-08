@@ -14,10 +14,10 @@ const HeroSection = () => {
             ))}
 
             <div className="absolute flex-col ml-[150px]">
-                <h1 className=" text-5xl font-semibold">Style that Moves with You</h1>
-                <p className="mt-2 text-xl">Premium Quality. Timeless Design. Effortless Comfort.</p>
+                <h1 className=" text-5xl font-semibold text-zinc-50">Style that Moves with You</h1>
+                <p className="mt-2 text-xl text-zinc-50">Premium Quality. Timeless Design. Effortless Comfort.</p>
                 <button className="bg-white mt-4 text-black p-4 w-[200px] rounded-xl ">Explore Now</button>
-                <p className="mt-2">Join 100,000+ trendsetters who made the switch.</p>
+                <p className="mt-2 text-zinc-50">Join 100,000+ trendsetters who made the switch.</p>
             </div>
         </div>
     );
