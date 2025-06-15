@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import MovingBrandName from './components/MovingBrandName'
 import ClothsSection from './components/ClothsSection'
 import Review from './components/review'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <MovingBrandName />
       <ClothsSection />
       <Review />
+      <Footer />
     </>
   )
 }
